@@ -1,0 +1,61 @@
+#wrapper {
+    max-width: 65em;
+    margin: 25px auto;
+}
+#wrapper {
+    display: grid;
+  row-gap: 0px;
+  column-gap: 25px;
+  grid-template-areas:
+  "main"
+
+}
+@media (min-width: 40em) {
+  #wrapper {
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+    grid-template-areas:
+      "main  main"
+
+  }
+
+}
+@media (min-width: 60em) {
+  #wrapper {
+       display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-areas: 
+      "main   main   main"
+
+   }
+}
+main{
+    text-align: center;
+    display: block;
+    grid-area: main;
+    border: 3px solid #FFFFFF;
+    background-color: rgb(238, 238, 238);
+}
+body{
+    background-image: url("CyberSecurityBackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    justify-content: center;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+
+}
+header{
+    color: white;
+    font-weight: bold;
+    font-size: 128px;
+    text-align: center;
+}
+p{
+    text-align: left;
+}
