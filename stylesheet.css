@@ -139,6 +139,10 @@ h1 .word {
     padding: 1em 0 1em 1.25em;
     letter-spacing: 0.1em;
   }
+h1 {
+    color: white;
+
+}
   h5{
     letter-spacing: normal;
     animation-name: opacity;
